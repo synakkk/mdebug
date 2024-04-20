@@ -1,6 +1,7 @@
 # mdebug
 
 A simple library for quick transmitting debug data via UART.
+The library is intended for use with HAL libraries on STM32 microcontrollers.
 
 The library only requires selecting which UART to use.
 You can do this in **`mdebug.h`** file changing **`MDEBUG_HUART`** parameter.
